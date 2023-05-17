@@ -23,7 +23,6 @@
 	text-align: center;
 	border-radius: 15px;
 	margin: 10px;
-	height: 100px;
 }
 
 .second-card{
@@ -34,7 +33,6 @@
 	text-align: center;
 	border-radius: 15px;
 	margin: 10px;
-	height: 120px;
 }
 
 .pictorial-news-section{
@@ -45,7 +43,6 @@
 	text-align: center;
 	border-radius: 15px;
 	margin: 10px;
-	height: 350px;
 }
 
 .first-card-heading{
@@ -65,5 +62,5 @@
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
-	flex-wrap: wrap;
+	align-items: flex-start;
 }
