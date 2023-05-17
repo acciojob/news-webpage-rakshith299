@@ -17,11 +17,35 @@
 
 .first-card{
 	background-color: white;
-	width: 30%;
 	font-family: Arial;
+	width: 25%;
 	padding: 10px;
 	text-align: center;
 	border-radius: 15px;
+	margin: 10px;
+	height: 100px;
+}
+
+.second-card{
+	background-color: white;
+	font-family: Arial;
+	width: 25%;
+	padding: 10px;
+	text-align: center;
+	border-radius: 15px;
+	margin: 10px;
+	height: 120px;
+}
+
+.third-card{
+	background-color: white;
+	font-family: Arial;
+	width: 25%;
+	padding: 10px;
+	text-align: center;
+	border-radius: 15px;
+	margin: 10px;
+	height: 350px;
 }
 
 .first-card-heading{
@@ -30,4 +54,16 @@
 
 .first-card-list{
 	font-size: 10px;
+}
+
+.image{
+	height: 100px;
+	width: 120px;
+}
+
+.cards-container{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
